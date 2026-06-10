@@ -1,4 +1,4 @@
-﻿# Training pipeline configuration
+# Training pipeline configuration
 # All values here. Nothing hardcoded in Python.
 
 data:

@@ -1,4 +1,4 @@
-﻿"""Central exception hierarchy for scf_surrogate.
+"""Central exception hierarchy for scf_surrogate.
 
 All exceptions inherit from SCFSurrogateError.
 

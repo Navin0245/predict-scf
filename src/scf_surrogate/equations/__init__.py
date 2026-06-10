@@ -1,4 +1,4 @@
-﻿"""Efthymiou SCF equations and DNV S-N curves.
+"""Efthymiou SCF equations and DNV S-N curves.
 
 Modules:
     efthymiou  -- Efthymiou (1988) SCF equations for T/Y, K, X, KT joints

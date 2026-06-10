@@ -1,4 +1,4 @@
-﻿# ADR-001: Serving Architecture
+# ADR-001: Serving Architecture
 
 ## Status
 Proposed

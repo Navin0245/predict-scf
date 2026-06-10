@@ -1,4 +1,4 @@
-﻿# Model architecture configuration
+# Model architecture configuration
 
 xgboost:
   objective: reg:squarederror

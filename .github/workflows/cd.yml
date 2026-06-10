@@ -1,4 +1,4 @@
-﻿# CD: runs on merge to main
+# CD: runs on merge to main
 # Protects: only quality-gated, tested code reaches production
 
 name: CD

@@ -1,4 +1,4 @@
-﻿# Runbook: Local Development Setup
+# Runbook: Local Development Setup
 
 ## Prerequisites
 - Python 3.11+

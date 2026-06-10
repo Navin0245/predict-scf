@@ -1,4 +1,4 @@
-﻿"""Model training and evaluation.
+"""Model training and evaluation.
 
 Modules:
     trainer   -- training loop with MLflow tracking

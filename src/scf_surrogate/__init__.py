@@ -1,4 +1,4 @@
-﻿"""scf_surrogate: ML surrogate for offshore tubular joint SCF prediction.
+"""scf_surrogate: ML surrogate for offshore tubular joint SCF prediction.
 
 Compliance: DNV-RP-C203 (2021), API RP 2A-WSD (22nd Ed.)
 

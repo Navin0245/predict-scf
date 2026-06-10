@@ -1,4 +1,4 @@
-﻿"""Shared pytest fixtures for all test levels.
+"""Shared pytest fixtures for all test levels.
 
 Fixtures defined here are available to unit, integration, and e2e tests
 without any import. pytest discovers this file automatically.

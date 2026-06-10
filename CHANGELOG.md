@@ -1,4 +1,4 @@
-﻿# Changelog
+# Changelog
 
 Format: Keep a Changelog (https://keepachangelog.com)
 Versioning: Semantic Versioning (https://semver.org)

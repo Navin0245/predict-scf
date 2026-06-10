@@ -1,4 +1,4 @@
-﻿# DNV-RP-C203 (2021) Key Reference
+# DNV-RP-C203 (2021) Key Reference
 
 ## Parametric Validity Ranges (Efthymiou equations)
 

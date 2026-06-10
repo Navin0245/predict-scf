@@ -1,4 +1,4 @@
-﻿# API serving layer configuration
+# API serving layer configuration
 
 server:
   host: 0.0.0.0

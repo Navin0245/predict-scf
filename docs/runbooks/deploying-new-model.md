@@ -1,4 +1,4 @@
-﻿# Runbook: Deploying a New Model Version
+# Runbook: Deploying a New Model Version
 
 ## Steps
 

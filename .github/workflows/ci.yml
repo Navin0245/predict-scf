@@ -1,4 +1,4 @@
-﻿# CI: runs on every push and pull request to main
+# CI: runs on every push and pull request to main
 # Protects: code correctness invariant
 # Jobs ordered cheapest-first: lint (5s) before tests (60s)
 

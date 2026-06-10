@@ -1,4 +1,4 @@
-﻿# API RP 2A-WSD Section 4.3.1 Joint Classification
+# API RP 2A-WSD Section 4.3.1 Joint Classification
 
 ## Core Rule
 Classification applies to INDIVIDUAL BRACES per LOAD CASE.

@@ -1,4 +1,4 @@
-﻿"""FastAPI serving layer for the SCF surrogate.
+"""FastAPI serving layer for the SCF surrogate.
 
 Routes:
     POST /predict -- predict SCF for a joint geometry + load case

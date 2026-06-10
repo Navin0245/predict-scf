@@ -1,4 +1,4 @@
-﻿# Architecture Decision Records
+# Architecture Decision Records
 
 Permanent log of significant architectural decisions.
 ADRs are never deleted. Superseded ADRs are marked as such.

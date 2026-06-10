@@ -1,4 +1,4 @@
-﻿# Contributing to scf-surrogate
+# Contributing to scf-surrogate
 
 ## Commit convention
 Conventional Commits: https://www.conventionalcommits.org

@@ -1,4 +1,4 @@
-﻿# System Architecture
+# System Architecture
 
 ## Two-layer system
 1. Offline training pipeline (Pipe-and-Filter)

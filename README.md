@@ -1,4 +1,4 @@
-﻿# scf-surrogate
+# scf-surrogate
 
 Production ML surrogate for predicting Stress Concentration Factors (SCF)
 in offshore tubular joints.

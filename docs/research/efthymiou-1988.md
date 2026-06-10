@@ -1,4 +1,4 @@
-﻿# Efthymiou (1988) SCF Equations
+# Efthymiou (1988) SCF Equations
 
 ## Reference
 Efthymiou, M. "Development of SCF Formulae and Generalised Influence

@@ -1,4 +1,4 @@
-﻿"""Joint taxonomy and load classification for offshore tubular joints.
+"""Joint taxonomy and load classification for offshore tubular joints.
 
 Modules:
     taxonomy            -- JointType enum, TubularJointGeometry, DNV validation
