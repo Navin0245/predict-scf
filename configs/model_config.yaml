@@ -1,0 +1,11 @@
+﻿# Model architecture configuration
+
+xgboost:
+  objective: reg:squarederror
+  eval_metric: mae
+  tree_method: hist
+
+fno:
+  modes: 16
+  width: 64
+  depth: 4

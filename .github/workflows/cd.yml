@@ -1,0 +1,36 @@
+﻿# CD: runs on merge to main
+# Protects: only quality-gated, tested code reaches production
+
+name: CD
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+
+  ml-quality-gate:
+    name: ML quality gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -e ".[train,dev]"
+      - run: dvc pull --run-cache
+      - run: dvc repro
+      - run: python scripts/assert_quality_gate.py --threshold 0.15
+      - uses: actions/upload-artifact@v4
+        with:
+          name: model-metrics
+          path: metrics/
+
+  build:
+    name: Build Docker image
+    runs-on: ubuntu-latest
+    needs: ml-quality-gate
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t scf-surrogate:latest .

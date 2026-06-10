@@ -1,0 +1,41 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Environment
+.env
+.venv/
+venv/
+
+# DVC - data files tracked by DVC not git
+/data/raw/*
+/data/processed/*
+/data/splits/*
+/models/*
+/reports/*
+!**/.gitkeep
+!**/*.dvc
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/

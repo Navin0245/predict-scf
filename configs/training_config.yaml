@@ -1,0 +1,25 @@
+﻿# Training pipeline configuration
+# All values here. Nothing hardcoded in Python.
+
+data:
+  n_samples: 10000
+  random_seed: 42
+  train_fraction: 0.70
+  val_fraction: 0.15
+  test_fraction: 0.15
+
+sampling:
+  method: latin_hypercube
+  stratify_by: joint_type
+
+model:
+  type: xgboost
+  xgboost:
+    n_estimators: 500
+    max_depth: 6
+    learning_rate: 0.05
+    subsample: 0.8
+
+mlflow:
+  experiment_name: scf-surrogate-training
+  tracking_uri: mlruns
