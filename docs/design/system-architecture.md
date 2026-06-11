@@ -2,7 +2,7 @@
 
 > **Project:** Offshore Tubular Joint SCF Prediction  
 > **Compliance:** DNV-RP-C203 (2021) · API RP 2A-WSD (22nd Ed.)  
-> **Version:** 0.1.0 · **Author:** Navin · **Org:** Ark2Tech
+> **Version:** 0.1.0 · **Author:** Navin
 
 ---
 
